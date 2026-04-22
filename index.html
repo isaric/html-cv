@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Šarić - Senior Software Engineer</title>
+
+    <!-- Primary metadata -->
+    <meta name="description" content="CV of Ivan Šarić — Senior Software Engineer and Technical Architect with 10+ years of experience in Java backend, cloud, and DevOps. Oracle Certified Professional. Previously at Revolut and TripAdvisor.">
+    <meta name="keywords" content="Ivan Šarić, Senior Software Engineer, Java, Spring, Backend, DevOps, Microservices, Revolut, TripAdvisor, Remote Development Environments, Cloud, AWS">
+    <meta name="author" content="Ivan Šarić">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (LinkedIn, Slack, etc.) -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Ivan Šarić — Senior Software Engineer">
+    <meta property="og:description" content="Senior Software Engineer and Technical Architect specialising in Java backend, cloud infrastructure, and DevOps. 10+ years of experience at global tech companies.">
+    <meta property="og:image" content="profile_pic.jpg">
+    <meta property="og:locale" content="en_GB">
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@isaric_pv">
+    <meta name="twitter:creator" content="@isaric_pv">
+    <meta name="twitter:title" content="Ivan Šarić — Senior Software Engineer">
+    <meta name="twitter:description" content="Senior Software Engineer and Technical Architect specialising in Java backend, cloud infrastructure, and DevOps.">
+    <meta name="twitter:image" content="profile_pic.jpg">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231e293b'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Inter,sans-serif' font-weight='700' font-size='13' fill='white'%3EI%C5%A0%3C/text%3E%3C/svg%3E">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons for clean vector icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+
+        /* Print-specific styles to ensure PDF exports look like a real document */
+        @media print {
+            body {
+                background-color: white;
+            }
+            .no-print {
+                display: none;
+            }
+            .print-container {
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                max-width: 100% !important;
+            }
+            @page {
+                margin: 1.5cm;
+            }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased p-4 md:p-8">
+
+    <!-- Resume Container -->
+    <div class="print-container max-w-4xl mx-auto bg-white p-8 md:p-12 shadow-sm border border-slate-200 sm:rounded-xl">
+        
+        <!-- Header Section -->
+        <header class="mb-8 border-b-2 border-slate-200 pb-6">
+            <div class="flex items-start gap-6">
+                <img src="profile_pic.jpg" alt="Ivan Šarić" class="w-24 h-24 rounded-full object-cover object-top flex-shrink-0 border-2 border-slate-200">
+                <div class="flex-1">
+            <h1 class="text-4xl font-bold text-slate-900 tracking-tight">Ivan Šarić</h1>
+            <h2 class="text-xl font-medium text-slate-600 mt-2">Senior Software Engineer <span class="text-slate-400 font-light px-1">|</span> Backend & DevOps Specialist</h2>
+            
+            <div class="mt-4 flex flex-wrap gap-y-2 gap-x-6 text-sm text-slate-600">
+                <div class="flex items-center gap-1.5">
+                    <i data-lucide="map-pin" class="w-4 h-4 text-slate-400"></i>
+                    Murcia, Spain
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <i data-lucide="phone" class="w-4 h-4 text-slate-400"></i>
+                    <a href="tel:+34603689915" class="hover:text-blue-600 transition-colors">+34 603 689 915</a>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i>
+                    <a href="mailto:ivan@path-variable.com" class="hover:text-blue-600 transition-colors">ivan@path-variable.com</a>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <i data-lucide="globe" class="w-4 h-4 text-slate-400"></i>
+                    <a href="https://www.path-variable.com" target="_blank" class="hover:text-blue-600 transition-colors">www.path-variable.com</a>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i>
+                    <a href="mailto:info@path-variable.com" class="hover:text-blue-600 transition-colors">info@path-variable.com</a>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-slate-400 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                    <a href="https://linkedin.com/in/isaric-cro" target="_blank" class="hover:text-blue-600 transition-colors">isaric-cro</a>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-slate-400 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                    </svg>
+                    <a href="https://github.com/isaric" target="_blank" class="hover:text-blue-600 transition-colors">isaric</a>
+                </div>
+                <div class="flex items-center gap-1.5">
+                    <svg class="w-4 h-4 text-slate-400 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    <a href="https://twitter.com/isaric_pv" target="_blank" class="hover:text-blue-600 transition-colors">@isaric_pv</a>
+                </div>
+            </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section class="mb-8">
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-3">Summary</h3>
+            <p class="text-sm leading-relaxed text-slate-700">
+                Senior Software Engineer and Technical Architect with over 10 years of professional experience specializing in Java-based backend development, cloud computing, and DevOps. Oracle Certified Professional. Proven track record of designing highly reliable and scalable systems at global tech companies like Revolut and TripAdvisor. Passionate open-source contributor and international public speaker advocating for remote development environments and system reliability.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-8">
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-3 border-b border-slate-100 pb-1">Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-2 text-sm text-slate-700">
+                <div><span class="font-semibold text-slate-900">Backend Development:</span> Java, Spring Framework, Go, Scala, Microservices (DDD, TDD).</div>
+                <div><span class="font-semibold text-slate-900">DevOps & Infra:</span> CI/CD, Jenkins, GitLab CI, Docker, Ansible, AWS, IBM Cloud, RDEs.</div>
+                <div><span class="font-semibold text-slate-900">Databases & Brokers:</span> MSSQL, PostgreSQL, Oracle, HANA, Cassandra, Neo4j, SOLR, RabbitMQ, MQTT.</div>
+                <div><span class="font-semibold text-slate-900">Frontend:</span> React, TypeScript.</div>
+                <div class="md:col-span-2"><span class="font-semibold text-slate-900">Engineering Practices:</span> System Design, Code Reviews, Technical Documentation, Mentorship.</div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section class="mb-8">
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-4 border-b border-slate-100 pb-1">Professional Experience</h3>
+            
+            <!-- Revolut -->
+            <div class="mb-6">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">Revolut <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Senior Software Engineer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">Nov 2024 – Present</span>
+                </div>
+                <p class="text-sm text-slate-600 italic mb-2">Financial Crime (FinCrime) Department — high-scale systems safeguarding 70M+ customers.</p>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li><span class="font-semibold text-slate-800">Government Authority Integrations:</span> Lead technical integrations with global government authorities, including the Portugal and Greece Tax Authorities, ensuring full regulatory compliance across markets.</li>
+                    <li><span class="font-semibold text-slate-800">Regulatory Scoping:</span> Identified and removed redundant regulatory requirements during the PT integration, drastically streamlining the project's delivery timeline.</li>
+                    <li><span class="font-semibold text-slate-800">Brazilian Banking Integration:</span> Drove backend innovation for the Expansion team, orchestrating the full launch strategy and technical integration with the Brazilian banking system.</li>
+                    <li><span class="font-semibold text-slate-800">External Communications Gateway:</span> Took complete ownership of the re-architecture of this high-throughput service, implementing complex database sharding to ensure scalability and reliability at scale.</li>
+                    <li>Design and develop resilient Java microservices adhering strictly to Domain-Driven Design (DDD) and Test-Driven Development (TDD).</li>
+                </ul>
+            </div>
+
+            <!-- TripAdvisor -->
+            <div class="mb-6">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">TripAdvisor <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Software Engineer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">Apr 2024 – Nov 2024</span>
+                </div>
+                <p class="text-sm text-slate-600 italic mb-2">High-impact SEO team — top-of-market compensation in Croatia.</p>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li>Delivered cross-cutting technical solutions to improve search visibility and user acquisition at global scale.</li>
+                    <li>Engineered scalable backend services in Java while building and optimizing responsive frontend interfaces using TypeScript and React.</li>
+                </ul>
+            </div>
+
+            <!-- Path Variable LLC -->
+            <div class="mb-6">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">Path Variable LLC <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Founder, Technical Architect & Senior Developer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">Apr 2021 – Apr 2024</span>
+                </div>
+                <p class="text-sm text-slate-600 italic mb-2">Independent consultancy delivering high-impact architecture for international clients.</p>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li><span class="font-semibold text-slate-800">PwC Ezra (Public Sector Accounting):</span> Led development of the Ezra platform for public sector accounting, applying Clean Architecture to strictly segregate core business logic from infrastructure volatility.</li>
+                    <li><span class="font-semibold text-slate-800">Embark Medicare (Enterprise Modernization):</span> Architected a cloud-native ecosystem on AWS Lambda and Step Functions to fully automate complex member enrollment workflows.</li>
+                    <li><span class="font-semibold text-slate-800">TelTech Systems (Telephony & Identity):</span> Designed the SIP-based 3-way calling bridge for TapeACall and developed virtual PBX systems for identity virtualization (SwitchUp).</li>
+                    <li><span class="font-semibold text-slate-800">Garmin RAG Application:</span> Designed a holistic athletic training application integrated with the Garmin developer program, leveraging Retrieval-Augmented Generation (RAG) for data-driven performance insights.</li>
+                    <li>Advocated for standardization of Remote Development Environments (RDEs) to improve security, scalability, and onboarding for distributed teams.</li>
+                </ul>
+            </div>
+
+            <!-- Infobip -->
+            <div class="mb-6">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">Infobip <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Senior Software Engineer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">Oct 2020 – Apr 2021</span>
+                </div>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li>Engineered and maintained critical microservices for high-volume message processing and billing using Java 11 and Spring Reactive.</li>
+                    <li>Contributed to automation and deployment workflows using Jenkins, Groovy scripts, and Docker containerization.</li>
+                    <li>Ensured transactional data integrity and near-perfect uptime for high-throughput distributed systems handling millions of transactions.</li>
+                </ul>
+            </div>
+
+            <!-- Digacon Software Solutions -->
+            <div class="mb-6">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">Digacon Software Solutions <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Technical Architect & Senior Developer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">May 2018 – Sep 2020</span>
+                </div>
+                <p class="text-sm text-slate-600 italic mb-2">Top-of-market compensation in Croatia, bridging application development and infrastructure operations.</p>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li><span class="font-semibold text-slate-800">Distrelec (E-Commerce):</span> Provided technical leadership for a headless, AI-powered e-shop migration, facilitating a €365m corporate exit.</li>
+                    <li><span class="font-semibold text-slate-800">AMAG Group (Automotive):</span> Engineered complex database queries to support customer data grouping for parts management and leasing systems across the Swiss market.</li>
+                    <li><span class="font-semibold text-slate-800">GitLab CI Optimization:</span> Designed custom CI/CD pipelines to handle a 600 MB JAR artifact using custom Gradle plugins and distributed build caches to overcome standard system limits.</li>
+                    <li>Automated infrastructure provisioning using Ansible and Docker; integrated multiple data stores (Oracle, HANA, Cassandra, SOLR) and messaging systems (RabbitMQ).</li>
+                </ul>
+            </div>
+
+            <!-- Rinels d.o.o. -->
+            <div class="mb-6">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">Rinels d.o.o. <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Technical Architect & Senior Developer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">Dec 2017 – May 2018</span>
+                </div>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li>Developed a CRM specialized for medical clinics using Java 8, the Eclipse Scout Framework, and PostgreSQL.</li>
+                    <li>Developed satellite microservices for automated email templating and authored extensive technical documentation to ensure system reliability.</li>
+                    <li>Mentored colleagues and led technical analysis for new features.</li>
+                </ul>
+            </div>
+
+            <!-- ecx.io -->
+            <div class="mb-2">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">ecx.io (an IBM Company) <span class="font-normal text-slate-500 px-1">|</span> <span class="font-medium text-slate-700">Software Developer</span></h4>
+                    <span class="text-sm font-medium text-slate-500 mt-1 sm:mt-0">May 2016 – Dec 2017</span>
+                </div>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1.5 text-sm">
+                    <li>Developed complex enterprise e-commerce platforms utilizing Java 8, SAP Hybris, Apache SOLR, and MSSQL/MySQL.</li>
+                    <li>Provided mentorship to junior developers, guiding them through the intricacies of enterprise cloud deployments and best practices.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Open Source & Personal Projects Section -->
+        <section class="mb-8">
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-4 border-b border-slate-100 pb-1">Open Source & Personal Projects</h3>
+            <ul class="list-disc list-outside ml-4 text-slate-700 space-y-2 text-sm">
+                <li><span class="font-semibold text-slate-900">Apache Commons Lang:</span> Contributed to the core Java utility library to support its widespread community usage.</li>
+                <li><span class="font-semibold text-slate-900">spaCy:</span> Authored the Croatian Language Lemmatizer for explosion/spaCy, an industrial-strength NLP library used by over 138,000 software projects globally.</li>
+                <li><span class="font-semibold text-slate-900">go-posix-time:</span> Developed a Go library that formats a <code>Time</code> struct into a POSIX.1 TZ string, utilizing the <code>ZoneBounds</code> struct to address gaps in the Go standard library regarding DST transitions.</li>
+                <li><span class="font-semibold text-slate-900">The Open Source Smart Garden:</span> Designed an event-driven, IoT-based home automation system using a Raspberry Pi, Zigbee, Grafana, and Prometheus to stream and visualize real-time botanical data.</li>
+                <li><span class="font-semibold text-slate-900">onvif-cam-poll:</span> Created Go scripts providing ONVIF motion event polling, decentralizing IoT to allow direct IP camera interaction without relying on cloud providers.</li>
+            </ul>
+        </section>
+
+        <!-- Public Speaking & Community Section -->
+        <!-- Public Speaking & Community Section -->
+        <section class="mb-8">
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-4 border-b border-slate-100 pb-1">Public Speaking & Community</h3>
+            <ul class="list-disc list-outside ml-4 text-slate-700 space-y-2 text-sm">
+                <li><span class="font-semibold text-slate-900">Spring I/O 2026 (Barcelona):</span> Speaker.</li>
+                <li><span class="font-semibold text-slate-900">Nerdearla 2025 (Madrid):</span> Speaker covering advanced software engineering topics.</li>
+                <li><span class="font-semibold text-slate-900">Open South Code 2025:</span> Presented "The Open Source Smart Garden".</li>
+                <li><span class="font-semibold text-slate-900">JavaCro 2024:</span> Delivered two technical sessions: "Remote Development Environments And Tools" and an advanced dive into the Java Platform Debugger Architecture (JPDA) and JVMTI.</li>
+                <li><span class="font-semibold text-slate-900">London Java Community Meetups:</span> Delivered a presentation in February 2024.</li>
+            </ul>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="mb-8">
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-4 border-b border-slate-100 pb-1">Certifications</h3>
+            <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1 text-sm">
+                <li><span class="font-semibold text-slate-900">Oracle Certified Professional:</span> Java SE 7 Programmer</li>
+                <li><span class="font-semibold text-slate-900">Neo4j Certified Professional</span></li>
+                <li><span class="font-semibold text-slate-900">Coursera/EPFL:</span> Functional Programming Principles in Scala</li>
+                <li><span class="font-semibold text-slate-900">IBM:</span> Architectural Thinking</li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h3 class="text-lg font-bold text-slate-900 uppercase tracking-wider mb-4 border-b border-slate-100 pb-1">Education</h3>
+            <div>
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1.5">
+                    <h4 class="text-base font-bold text-slate-900">Central European University (CEU)</h4>
+                    <span class="text-sm font-medium text-slate-500">Sep 2010 – Jul 2014</span>
+                </div>
+                <p class="text-sm font-medium text-slate-700 mb-1.5">Master of Arts in Political Science and Government</p>
+                <ul class="list-disc list-outside ml-4 text-slate-700 space-y-1 text-sm">
+                    <li><span class="font-semibold">Thesis:</span> <em>"Tracing the Paths of Social Protection Policy in Croatia and Slovenia"</em>.</li>
+                    <li>Applied systems-level analytical frameworks and institutional research, which later informed a unique socio-technical approach to designing sustainable, distributed software architectures.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
